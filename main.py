@@ -10,6 +10,7 @@ symbol = "BTC/USDT"
 timeframe = "1h"
 limit = 100
 
+# Open, High, Low, Close and Volume
 ohlcv = exchange.fetch_ohlcv(symbol, timeframe=timeframe, limit=limit)
 print(ohlcv)
 
